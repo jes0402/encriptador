@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo">
+    </header>
+    <h1>Encriptador de texto</h1>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <button class="btn-desencriptar" onclick="desencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>        
+        <section class="caja-mensaje">
+            <textarea class="text-input-salida" cols="18" rows="8" ></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <footer>
+        <p class="footer">Creado por Jessica Arango 2022 © </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

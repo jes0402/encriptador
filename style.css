@@ -1,0 +1,87 @@
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+
+body {
+    background-color: rgb(211, 226, 233);
+}
+
+h1{
+    font-weight: bold;
+}
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+textarea{
+    margin: 30px 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.text-input-salida{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.input-texto{
+    display: flex;
+    width: 500px;
+    height: 250px;
+}
+
+.btn-encriptar{
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+    margin: 10px 40px;
+    cursor:pointer;
+}
+
+.btn-desencriptar{
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+    margin: 10px 10px;
+    cursor:pointer;
+}
+
+.copiar{
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+    margin: 10px 40px;
+    cursor:pointer;
+}
+
+
+button:hover{
+	background-color: rgb(201, 195, 235);
+  }
+
+
+.footer{
+    margin-top: 230px;
+    font-size: 13px;
+    text-align: center;
+}
